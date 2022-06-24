@@ -1,2 +1,2 @@
 #!/bin/bash
-0 string SCHOOl ln -s school
+SCHOOL ln -s school
