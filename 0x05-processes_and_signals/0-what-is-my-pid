@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 
 # Displays its own PID.
@@ -5,3 +6,9 @@
 
 
 echo $$
+=======
+#!/usr/bin/env bash
+# Displays its own PID.
+
+echo $$
+>>>>>>> 05be851b5cf0489cc722f3179a618de1fb5fa728
