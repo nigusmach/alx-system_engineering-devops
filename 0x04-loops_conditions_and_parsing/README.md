@@ -1,1 +1,1 @@
-Projects on Loops, conditions and parsing an key generation
+Projects on SSH key pair generation
