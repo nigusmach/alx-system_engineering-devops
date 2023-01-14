@@ -1,9 +1,16 @@
-# Config file
-Host *
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    #IdentityFile ~/.ssh/school
-    IdentityFile /root/alx-system_engineering-devops/0x0B-ssh/school
-    PasswordAuthentication no
+#!/usr/bin/env bash
+# ssh config file
+
+# Host *
+# SendEnv LANG LC_*
+# HashKnownHosts yes
+# GSSAPIAuthentication yes
+# GSSAPIDelegateCredentials no
+# IdentityFile ~/.ssh/school
+# PasswordAuthentication no
+
+
+Host 54.236.25.118
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
+PubKeyAuthentication yes
